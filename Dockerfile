@@ -19,7 +19,7 @@ RUN apk add vim bash-completion acl bash openssl --no-cache
 # 赋予执行权限
 RUN chmod +x /app/init.sh
 
-# 创建用户(如果环境变量中传入PASSWORD则会又脚本替换)
+# 创建用户(如果环境变量中传入PASSWORD则会用脚本替换)
 RUN adduser -D -h /home/term -s /bin/bash term && \
     ( echo "term:term" | chpasswd ) 
        
