@@ -23,7 +23,7 @@ metadata:
     app: kubectl-terminal
 spec:
   containers:
-  - image: kubectl-terminal
+  - image: guomaoqiu/kubectl-terminal:latest
     imagePullPolicy: IfNotPresent
     name: kubectl-terminal
     ports:
