@@ -14,7 +14,7 @@ WORKDIR /app
 RUN /bin/cp /app/repositories /etc/apk/repositories
 
 # 安装必要组件
-RUN apk add vim bash-completion acl bash openssl --no-cache
+RUN apk add vim bash-completion acl bash openssl openssh --no-cache
 
 # 赋予执行权限
 RUN chmod +x /app/init.sh
