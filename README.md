@@ -8,5 +8,5 @@ For CKA
 
 容器内跑的是gateone web terminal程序，端口暴露3000，我这里映射到节点的是30000
 
-master节点运行该pod，pod挂载该master节点上的kubeconfig 到运行容器的用户家目录中，目的是让其用户可以通过kubeconfig于KubernetesApi交互
+master节点运行该pod，pod挂载该master节点上的kubeconfig 到运行容器的用户家目录中，目的是让其用户可以通过kubeconfig与KubernetesApi交互，具体内容可以看Dockerfile,以及init.sh这个脚本内容。
 
