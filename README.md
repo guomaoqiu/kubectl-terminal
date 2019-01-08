@@ -1,4 +1,4 @@
-For CKA
+For CKA(已通过)
 
 ## 目的: 
 为熟悉Web terminal的使用方式，为CKA做准备
